@@ -1,6 +1,6 @@
 # MuffinBot
 
-This is a work-in progress Discord Bot for Star Citizen organizations developed using the [interactions](https://pypi.org/project/interactions/) and [OpenAI](https://beta.openai.com/) libraries.
+This is a work-in progress Discord Bot for Star Citizen organizations developed using the [interactions](https://discord-py-slash-command.readthedocs.io/en/latest/index.html) and [OpenAI](https://beta.openai.com/) libraries.
 
 ## Installation
 
