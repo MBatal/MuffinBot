@@ -1,6 +1,6 @@
 # MuffinBot
 
-This is a simple Discord Bot developed using the [interactions](https://pypi.org/project/interactions/) and [OpenAI](https://beta.openai.com/) libraries. The bot is designed to return various quotes from popular TV shows such as "The Office" and "Creed Bratton". 
+This is a work-in progress Discord Bot for Star Citizen organizations developed using the [interactions](https://pypi.org/project/interactions/) and [OpenAI](https://beta.openai.com/) libraries.
 
 ## Installation
 
