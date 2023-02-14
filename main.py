@@ -66,7 +66,6 @@ async def test_ai(ctx: interactions.CommandContext, text: str):
     )
 
     msg = response['choices'][0]['text']
-    print(msg)
     await ctx.send(msg)
 
 @client.command(
@@ -88,6 +87,16 @@ async def rules(ctx: interactions.CommandContext):
     embed = get_rules()
     await ctx.send(embeds=embed)
 
-print("HEEER")
+
+@client.command(
+    name="announcement",
+    description="Get the most recent spectrum announcement",
+    scope=os.environ['GUILD_ID'],
+)
+async def announcement(ctx: interactions.CommandContext):
+    await ctx.send("SPECTRUM ANNOUNCEMENT POSTED!\n")
+    embed = get_announcement("https://robertsspaceindustries.com/spectrum/community/SC/forum/1/thread/citizencon-2953-save-the-date")
+    await ctx.send(embeds=embed)
+
 keep_alive()
 client.start()

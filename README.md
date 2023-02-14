@@ -32,6 +32,7 @@ In a Discord channel, use the following commands to interact with the bot:
 - `/test_ai` - Generates a response based on your input text
 - `/server_status` - Retrieve information about the server status
 - `/rules` - Retrieve the rules for the server
+- `/announcement` - Retrieve the the most recent Spectrum Announcements post
 
 ## Contributing
 
